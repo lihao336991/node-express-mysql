@@ -32,3 +32,6 @@ mysql = {
 
 module.exports = mysql; //用module.exports暴露出这个接口，
 ```
+
+## 运行项目
+`npm start`
