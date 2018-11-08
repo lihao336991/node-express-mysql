@@ -1,12 +1,12 @@
 mysql = {
 
-        host: "39.107.233.105", //这是数据库的地址
+        host: "xx.xxx.xxx.xxx", //这是数据库的地址
 
-        user: "lihao", //需要用户的名字
+        user: "xxx", //需要用户的名字
 
-        password: "123", //用户密码 ，如果你没有密码，直接双引号就是
+        password: "xxx", //用户密码 ，如果你没有密码，直接双引号就是
 
-        database: "node" //数据库名字
+        database: "xxx" //数据库名字
 
     } //好了，这样我们就能连接数据库了
 
