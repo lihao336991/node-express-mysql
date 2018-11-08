@@ -1,9 +1,20 @@
 ## node.js环境下express+mysql的服务端项目示例
 
+
+
+
 ## 进入项目根目录
+
+
 `npm install`
 
+
+
+
+
 ## 进入/config/mysql.js，配置数据库设置
+
+
 ```
 mysql = {
 
