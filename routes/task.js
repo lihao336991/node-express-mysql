@@ -1,9 +1,9 @@
 var express = require('express');
 var mysql = require('../common/basicConnection');
-var qibu_task = require('../model/qibu_task')
+var DBSQL = require('../model/DBSQL')
 var router = express.Router();
-
-// 响应一个JSON数据
+var qibu_task = new DBSQL('qibu_task', ['id', 'task', 'name', 'created_at'])
+    // 响应一个JSON数据
 var responseJSON = function(res, ret) {
     if (typeof ret === 'undefined') {
         res.json({
